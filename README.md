@@ -13,6 +13,9 @@ Extracting Astrophysics from Gravitational Waves: GW170817 Case Study
 ABSTRACT:
 A new era of multi-messenger astronomy began with the coincident detection of gravitational waves by LIGO (an event labeled GW170817) and electromagnetic waves by over 70 observatories across and orbiting Earth. Part of the light observed came in the form of a short gamma-ray burst; the source of this class of GRB has been a longstanding mystery. The observation of associated gravitational waves finally proved that the merger of a neutron star binary system is a source of these bursts. This talk will focus on how information about a gravitational wave source is extracted from the recorded signal and the contributions this makes to a fuller understanding of our universe. Classroom connections with references to the GW170817 detection will be discussed.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jkanner/aapt/blob/master/AAPT-WM19-Stuver.ipynb)
+
+
 ===
 
 Joseph Romano, Texas Tech University, joseph.romano@ligo.org
