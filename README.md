@@ -24,3 +24,6 @@ The Complementarity of Multi-wavelength and Multi-messenger Observations
 
 ABSTRACT:
 Just as sight and sound provide complementary information about the everyday world around us, so to do electromagnetic and gravitational-wave observations for celestial objects in the universe. In this talk, I will give examples showing the wealth of information provided by multi-wavelength observations of the electromagnetic sky, and then describe how that picture is enlarged by gravitational-wave observations. References will be made to GW170817, our first multi-messenger observation of a binary neutron star merger. 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jkanner/aapt/blob/master/AAPT-WM19-Romano.ipynb)
+
