@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIGO Wave Physics</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      @media (min-width: 1200px) {
+      .container {
+      width: 1200px;
+      }
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50341146-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-50341146-3');
+    </script>
+    
+    <!-- Fixed navbar -->
+    <div class="container" style='max-width:400'>
+    <br/>
+    	<div class="row" id="contact">
+	  <div class="col-sm-5  col-sm-offset-0">
+            <img src="images/odw-2020-td.png" width="100%"/>
+	    </div>
+	  <div class="col-sm-7  col-sm-offset-0">
+            <h2>Wave Physics with LIGO data</h2>
+	    <h3>Learn about sources from their signals</h3>
+	    
+	    </div>
+	</div>
+
+    
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0">
+        <h1 class="page-header">Do the math</h1>
+	<br/>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0">
+	<h3>Perfect pitch</h3>
+	<hr/>
+	<br/>
+      </div>
+    </div>
+
+    <!-- BEGIN ROW -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-0">
+
+	Musical instruments (and many other sources of sound) use
+	<i>resonance</i> to amplify sound.  Every object has a series of
+	natural resonant frequencies.  Musical instruments are designed
+	so their resonant frequencies will correspond to a set of musical notes.	
+	<br/><br/>
+	In most cases, the lowest resonant frequency will correspond
+	to the round trip travel time for sound through the object.
+	For a wind instrument (like a piccolo or a bassoon),
+	this is the time for a sound wave to travel round trip from one end to the other.
+	Finding this frequency is equivalent to finding a wave whose wavelength "fits"
+	on the instrument - for example, the size of the instrument is half of a wavelength.
+	So, longer wavelengths resonate with larger sources, which is why lower pitches
+	often come from larger objects.
+	<br/><br/>
+
+	<ol>
+	  <li> You can model a piccolo as a hollow cyclinder, 30 cm long.  How long is this in meters?
+	  <li> The speed of sound in air is around 300 m/s.  Calculate the round-trip travel time
+	    for sound down-and-back the length of the piccolo.  (Hint: distance = rate X time)
+	  <li> Use this time to estimate the lowest frequency a piccolo can play ( f = 1/T )
+	  <li> Use an <a href='https://onlinetonegenerator.com' target=_blank>online tone generator</a> to listen
+	    to this frequency.  Does it sound like a note a piccolo could play?
+	  <li> Repeat this for a bassoon, which has a path for sound about 2 m long.
+	  <li> Play the bassoon's lowest pitch on the tone generator.  Does it sound like a note a bassoon could make?
+	</ol>
+	<br/><br/><br/>
+      </div>
+      
+      <div class="col-sm-6 col-sm-offset-0">
+	<h4>A piccolo is around 30 cm long</h4>
+	<a href='./images/piccolo-model.png' target=_blank>
+	  <img src='./images/piccolo-model.png' class="img-fluid" width='100%'>
+	</a>
+	<br/><br/>
+      </div>
+    </div>
+    <!-- END ROW -->
+
+
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0">
+	<h3>Reading time-frequency plots</h3>
+	<hr/>
+      </div>
+    </div>
+    
+    
+    <!-- BEGIN ROW -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-0">
+
+	Let's look at two ways to display the same signal.
+	The first figure shows a "time-domain" plot of a sound wave,
+	with amplitude on the y-axis and time on the x-axis. You can measure the
+	period of the wave by reading the time between peaks.  You
+	can do this by dividing the time shown by how many peaks are shown.
+	<br/><br/>
+	<ol>
+	  <li> Calculate the period (T) for the signal shown at right.
+	  <li> Calculate the frequncy (f) of this signal ( f = 1/T ) 
+	</ol>
+      </div>
+      
+      <div class="col-sm-6 col-sm-offset-0">
+	<h4>Time Domain</h4>
+	<a href='./images/time-lowfreq.png' target=_blank>
+	  <img src='./images/time-lowfreq.png' class="img-fluid" width='100%'>
+	</a>
+	<br/><br/>
+      </div>
+    </div>
+    <!-- END ROW -->
+
+    <!-- BEGIN ROW -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-0">
+
+	This figure shows a time-frequency plot of the data, known
+	as a spectrogram.  You can see the signal as the bright, yellow band.
+	In plots like this, frequency is plotted on the y-axis, and time is plotted
+	on the x-axis.  The color corresponds to the amplitude of each pixel.
+	<br/><br/>
+	<ol>
+	  <li> What is the frequency of the signal at right?
+	  <li> Does this match the frequency in the time domain plot above? (Hint: yes)
+	  <li> Does the frequency correspond to a larger instrument (like a bassoon) or a smaller instrument (like a piccolo)?
+	  <li> If the frequency were one octave higher (twice the frequency), how would it appear in the spectrogram?
+	</ol>
+      </div>
+      
+      <div class="col-sm-6 col-sm-offset-0">
+	<h4>Spectrogram</h4>
+	<a href='./images/specgram-low.png' target=_blank>
+	  <img src='./images/specgram-low.png' class="img-fluid" width='100%'>
+	</a>
+      </div>
+    </div>
+    <!-- END ROW -->
+        
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0">
+	<br/>
+	<h3>Time-Frequency Plots for gravitational waves</h3>
+	<hr/>
+      </div>
+    </div>
+
+ <!-- BEGIN ROW -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-0">
+
+	Just like the frequency of a musical note can tell us about the size of the instrument, the frequency of a gravitational wave
+	signal can tell us about the size of binary black holes.  Each cycle of a graviatational wave signals corresponds to
+	one half orbit of a binary black hole.  You can see this in the video - a gravitational wave "crest" leaves the system each time
+	a black hole passes by.  So, the period of the gravitational wave signal is always twice the period of the binary orbit:
+	<br/><br/>
+	2 * T<sub>GW</sub> = T<sub>orbit</sub>
+
+	<br/><br/>
+	The plots show the same simulated signal for a binary black merger, in the time domain and spectrogram plots.  As the black holes
+	get closer, they orbit faster, so the frequency goes up near the merger time (the black holes merger near time 1.7 s).
+	<br/><br/>
+	<ol>
+	  <li> Using the plots at right to estimate the gravitational wave period near merger. [Hint: What's the highest frequency in the spectrogram?]</li>
+	  <li> Calcuate the orbital period.  This is twice the gravitational wave period.
+	  <li> Near merger, black holes always move really, really fast - around 10<sup>8</sup> m/s.  This is around 1/3 the speed of light (!!)  Use this
+	    velocity to estimate the orbital radius of the black holes [Hint: distance = rate X time].
+	  <li> Is the radius you calculated closer to the size of a car, a city, a planet, or a star?  Imagine an object this size, spinning around
+	    100 times per second.  What would it look like?
+	  <li> The orbital radius near merger can be related to the black hole mass using the "ISCO" radius, r<sub>ISCO</sub> = 6GM / c<sup>2</sup>.
+	    Assuming the orbital radius you calculated is the ISCO radius, estimate the mass of these black holes.  G is Newton's constant,
+	    c is the speed of light.
+	  <li> Divide your answer by the mass of our sun to estimate the mass in units of "solar masses"
+	  <li> The masses used to genenate this signal are similar to parameters for GW150914 (well ... within a factor of 2).  Take a look at
+	    <a href='https://www.gw-openscience.org/eventapi/html/GWTC-1-confident/GW150914/v3/' target='_blank'>the real GW150914 data</a>.  You can see the masses
+	    by clicking "show parameters".  How do the spectrograms and masses of GW150914 compare with what you did here?
+	</ol>
+	
+	
+      </div>
+      <div class="col-sm-6 col-sm-offset-0">
+	<h4>Binary black hole merger</h4>
+
+	<div class="embed-responsive embed-responsive-16by9" >
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zLAmF0H-FTM" allowfullscreen></iframe>
+	</div>
+
+	<br/>      
+	<a href='./images/time-math.png' target=_blank>
+	  <img src='./images/time-math.png' class="img-fluid" width='100%'>
+	</a>
+	
+	<br/>
+	<a href='./images/ts-math.png' target=_blank>
+	  <img src='./images/ts-math.png' class="img-fluid" width='100%'>
+	</a>
+	
+      </div>
+    </div>
+    <!-- END ROW -->
+
+    
+
+    
+    <br/><br/><br/><br/>
+
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
