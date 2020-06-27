@@ -17,7 +17,7 @@
 
 * 2:45 - Organize for resource evaluation
 
-* 3:00 - Explore & Evaluate resources in break-out rooms
+* 3:00 - Explore & Evaluate resources in break-out rooms - [Resources](https://labcit.ligo.caltech.edu/~jkanner/aapt/web/resources.html) - [Evaluation Form](https://docs.google.com/document/d/1oJV_HCaQGV3D23f97gwW6KyS0foNnnwuMDhOt14rUVc/edit?usp=sharing)
 
 * 3:30 - Share out resource evaluations
 
