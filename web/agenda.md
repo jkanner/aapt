@@ -15,7 +15,13 @@
     
 * 2:30 - BREAK
 
-* 2:45 - Evaluate resources (breakout) 
+* 2:45 - Organize for resource evaluation
+
+* 3:00 - Explore & Evaluate resources in break-out rooms
+
+* 3:30 - Share out resource evaluations
+
+* 4:00 - Session ends
 
 
 
