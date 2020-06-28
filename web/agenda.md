@@ -1,5 +1,5 @@
 ## Agenda for AAPT Workshop
-### July 17, 2020
+### July 10, 2020
 
 ### Agenad
 *All times U.S. Eastern*
