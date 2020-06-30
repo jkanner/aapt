@@ -1,7 +1,7 @@
 ## Agenda for AAPT Workshop
 ### July 10, 2020
 
-### Agenad
+### Agenda
 *All times U.S. Eastern*
 
  * 1:00 - Welcome and logistics
