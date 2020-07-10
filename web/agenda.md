@@ -25,4 +25,8 @@
 
 
 
+### Contact
 
+Amber Stuver, Jonah Kanner, Chris North
+
+gwosc@igwn.org
