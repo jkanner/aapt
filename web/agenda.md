@@ -25,8 +25,11 @@
 
 
 
+### Presenters
+
+ * [Amber Stuver](https://www1.villanova.edu/villanova/artsci/physics/facstaff/biodetail.html?mail=amber.stuver@villanova.edu)
+ * [Jonah Kanner](https://labcit.ligo.caltech.edu/~jkanner/homepage/)
+ * [Chris North](https://www.cardiff.ac.uk/people/view/828749-north-chris)
+
 ### Contact
-
-Amber Stuver, Jonah Kanner, Chris North
-
 gwosc@igwn.org
