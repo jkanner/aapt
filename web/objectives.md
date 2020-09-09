@@ -14,4 +14,6 @@
  * Students can interpert time-domain plots of gravitational wave data
 
  * Students can interpert time-frequency plots of gravitational wave data
+ 
+ * Students can access information about real gravitational wave events through the GWOSC web site (e.g. find masses of events)
 
