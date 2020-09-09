@@ -1,5 +1,5 @@
 
----++ Objectives for the Student Learning Path
+## Objectives for the Student Learning Path
 
  * Students understand the connection between gravitational waves
    and compact object mergers
