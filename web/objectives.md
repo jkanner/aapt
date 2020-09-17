@@ -1,6 +1,8 @@
 
 ## Objectives for the Student Learning Path
 
+ * Provide scaffolding to help students understand data products on GWOSC web site
+
  * Students understand the connection between gravitational waves
    and compact object mergers
    
